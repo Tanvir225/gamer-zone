@@ -1,0 +1,259 @@
+@media screen and (max-width:576px) {
+
+
+    header {
+        background-position: bottom left;
+    }
+
+    nav {
+        background-color: transparent;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .nav-logo {
+        margin-bottom: 30px;
+    }
+
+    nav>ul {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner {
+        margin-top: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 50px;
+
+    }
+
+    .banner-header{
+        font-size: 2em;
+        margin-top: 100px;
+    }
+
+    .banner-title{
+        font-size: 4em;
+    }
+
+
+    .banner-content {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner-des{
+        font-size: 1em;
+    }
+    .banner-img {
+        max-width: 100%;
+        padding:0;
+    }
+
+    .we-are-gamer {
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+        padding: 10px 50px;
+
+    }
+
+    .gamer-content {
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .gamer-header{
+        margin-bottom: 0;
+    }
+
+    .gamer-des{
+        margin-bottom: 0;
+    }
+
+
+    .gamer-image {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+
+    .funny-content {
+        margin-top: 50px;
+        padding: 10px 50px;
+    }
+
+    .funny-header{
+        font-size: 2.5em;
+    }
+
+    .funny-des{
+        font-size: 1em;
+       
+    }
+
+    .funny-image {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .funny-title {
+        text-align: center;
+    }
+
+    .image-overlay,
+    .image-overlay-1,
+    .image-overlay-2,
+    .image-overlay-3 {
+
+        top: 40%;
+        left: 40%;
+
+    }
+
+    .play {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 50px;
+    }
+
+    .play-content {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .play-img {
+        max-width: 100%;
+        padding: 0;
+
+    }
+
+    .play-header {
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+        font-size: 2.4em;
+        margin-bottom: 30px;
+    }
+
+    .play-des {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img-1>img {
+        max-width: 100%;
+
+    }
+
+    .img-2>img{
+        max-width: 40%;
+    }
+
+    .img-2{
+        padding: 20px;
+        bottom: -10%;
+        left: -18%;
+    }
+
+    .careers {
+        flex-direction: column;
+        padding: 10px 50px;
+        gap: 30px;
+    }
+
+    .careers-header{
+        font-size: 2.5em;
+    }
+
+    .careers-des{
+        font-size: 14px;
+    }
+
+    .careers-content {
+        max-width: 100%;
+    }
+
+    .careers-image {
+        max-width: 100%;
+    }
+
+
+    .sponsor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        margin-top: 50px;
+        gap: 20px;
+        padding: 10px 30px;
+    }
+
+    .sponsor-content{
+        padding: 0;
+    }
+
+    .sponsor-title {
+        font-size: 10px;
+    }
+
+    .footer{
+        padding: 10px 50px;
+    }
+    .footer-header{
+        margin-top: 0px;
+    }
+    .footer-content {
+        margin-top: 50px;
+        font-size: 12px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .terms{
+        font-size: 12px;
+    }
+
+    .header-img{
+        margin-top: 100px;
+    }
+
+    .header-title{
+        margin-top: 100px;
+    }
+
+    .icon{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    .end{
+        
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+}
